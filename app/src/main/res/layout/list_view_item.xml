@@ -12,7 +12,7 @@
         android:layout_height="33dp"
         android:layout_margin="10dp"
         android:padding="2dp"
-        app:srcCompat="@drawable/user" />
+        app:srcCompat="@drawable/female_user" />
 
     <TextView
         android:id="@+id/tv_name"
