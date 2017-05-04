@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    tools:context="vn.edu.eiu.custom_listview.MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -140,5 +141,6 @@
         android:layout_marginTop="-7dp"
         app:layout_constraintLeft_toRightOf="@+id/tv_nv"
         android:layout_marginLeft="14dp" />
+
 
 </android.support.constraint.ConstraintLayout>

@@ -6,12 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Admin on 5/3/2017.
- */
 
 public class MyAdapter extends BaseAdapter {
     Context context;
@@ -77,4 +77,5 @@ public class MyAdapter extends BaseAdapter {
         public CheckBox xoa;
     }
 }
+
 
